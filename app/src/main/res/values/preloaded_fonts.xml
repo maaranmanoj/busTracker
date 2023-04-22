@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/anton</item>
+        <item>@font/atomic_age</item>
+        <item>@font/bebas_neue</item>
+        <item>@font/days_one</item>
+        <item>@font/hanalei_fill</item>
+        <item>@font/julius_sans_one</item>
+        <item>@font/michroma</item>
+        <item>@font/secular_one</item>
+    </array>
+</resources>

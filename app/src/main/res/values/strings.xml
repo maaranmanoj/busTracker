@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TNSTC Bus Tracker</string>
+    <string name="map_key" translatable="false">AIzaSyDo0IF4BzfV1zZ0eMrUt8dPWsR_pAEsRwc</string>
+
+</resources>

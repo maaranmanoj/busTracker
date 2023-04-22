@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/BusDetails_textview"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="599dp"
+        android:text="Enter your Bus Details"
+        android:textSize="30dp"
+        app:fontFamily="@font/bebas_neue" />
+
+    <EditText
+        android:id="@+id/busnumber_editText"
+        android:layout_width="346dp"
+        android:layout_height="68dp"
+        android:layout_alignBottom="@+id/BusDetails_textview"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="-103dp"
+        android:drawableStart="@drawable/ic_bus"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Enter Bus Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/busroute_edittext"
+        android:layout_width="346dp"
+        android:layout_height="68dp"
+        android:layout_alignBottom="@+id/busnumber_editText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="-82dp"
+        android:drawableStart="@drawable/ic_route"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Enter Route Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/point1_edittext"
+        android:layout_width="346dp"
+        android:layout_height="68dp"
+        android:layout_alignBottom="@+id/busroute_edittext"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="-86dp"
+        android:drawableStart="@drawable/ic_point1"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Enter Point 1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/point2_edittext"
+        android:layout_width="346dp"
+        android:layout_height="68dp"
+        android:layout_alignBottom="@+id/point1_edittext"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="-83dp"
+        android:drawableStart="@drawable/ic_point2"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Enter Point 2"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/busdetails_button"
+        android:layout_width="265dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/point2_edittext"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="-114dp"
+        android:text="ENTER"
+        android:textSize="20dp"
+        app:fontFamily="@font/secular_one" />
+
+</RelativeLayout>
